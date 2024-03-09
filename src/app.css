@@ -1,0 +1,94 @@
+:root {
+	--background: #fffbfe;
+	--surface: #fffbfe;
+	--outline: #79747e;
+	--secondary: #588157;
+	--primary: black;
+	--surface-variant: #e7e0ec;
+	--shadow-color: black;
+	--platinum: #a66358;
+	--gold: #ffdd00;
+	--silver: #adb5bd;
+}
+
+body {
+	background-color: var(--background);
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+input[type='text'],
+input[type='password'] {
+	padding: 8pt;
+	border-radius: 4pt;
+	border: 1pt solid var(--outline);
+	font: inherit;
+}
+
+select {
+	padding: 8pt;
+	border-radius: 4pt;
+	border: 1pt solid var(--outline);
+	font: inherit;
+}
+
+option {
+	padding: 8pt;
+	border-radius: 4pt;
+	border: 1pt solid var(--outline);
+	font: inherit;
+}
+
+.primary-button {
+	background-color: var(--primary);
+	color: white;
+	font: inherit;
+	font-weight: 500;
+	border: none;
+	padding: 8pt;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}
+
+.secondary-button {
+	color: var(--primary);
+	font: inherit;
+	font-weight: 500;
+	border: none;
+	padding: 8pt;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	border: 1pt solid var(--primary);
+}
+
+.text-button {
+	color: var(--primary);
+	font-weight: 500;
+	border: none;
+	padding: 8pt;
+	border-radius: 100pt;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+.gold {
+	background-color: var(--gold);
+}
+
+.platinum {
+	background-color: var(--platinum);
+}
+
+.silver {
+	background-color: var(--silver);
+}
